@@ -1,0 +1,169 @@
+body {
+    background-color: black;
+}
+
+header {
+    border-bottom: 1px solid seashell;
+}
+
+.logo,
+.logo img {
+    height: 50px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.container {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+h1 {
+    color: seashell;
+    text-decoration: underline;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    opacity: 0.9;
+}
+
+h2,
+h4,
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.9;
+    color: seashell;
+    text-align: center;
+}
+
+h4,
+p {
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.tea-of-the-month p {
+    margin: 10px;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 1;
+    color: seashell;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.our-mission {
+    height: 700px;
+    width: 1200px;
+    background-image: url('img-mission-background.jpg');
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.our-mission-text {
+    background-color: black;
+    width: 1200px;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+}
+
+.tea {
+    height: 200px;
+    width: 300px;
+}
+
+.img-totm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tea-of-the-month {
+    width: 1200px;
+    max-width: 1200px;
+    margin-right: 100px;
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-evenly;
+}
+
+.tea {
+    margin: 30px 15px;
+}
+
+.locations {
+    width: 1200px;
+    height: 500px;
+    background-image: url('img-locations-background.jpg');
+    background-size: 1200px 500px;
+    margin-top: 20px;
+}
+
+.downtown,
+.east-bayside,
+.oakdale {
+    background-color: black;
+    width: 300px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.location {
+    margin-top: 20px;
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.location h2 {
+    width: 1200px;
+}
+
+
+.bottom {
+    width: 1200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer {
+    width: 100%;
+}
+
+.footer p {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.body,
+.bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
