@@ -1,0 +1,141 @@
+
+head {
+    display: none;
+}
+
+h2, h3, h4, p {
+    margin: 0;
+    padding: 10px;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+body {
+    display: block;
+    margin: 0;
+    font-family: "Lexend Mega", sans-serif;
+    color: black;
+    background-color: white;
+    font-size: 22px;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+.header .navbar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main {
+    padding-top: 35px;
+    opacity: 0.9;
+}
+
+.mission {
+    display: flex;
+    height: 300px;
+    background-image: url('https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/skyscrapers.jpg');
+    padding-top: 35px;
+    
+}
+
+.mission .content {
+    margin: auto;
+    background-color: white;
+    width: 100%;
+}
+
+#portfolio {
+    min-height: 500px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.companies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.company {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    height: auto;
+}
+
+
+.company span {
+    padding: 5px;
+    min-width: 240px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.team {
+    background-image: url(https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/blurred-road.jpg);
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.teammate {
+    padding: 10px;
+    color: white;
+    flex-basis: 280px;
+}
+
+.teammate img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+}
+
+.contact,
+.copyright {
+    padding-top: 20px;
+}
